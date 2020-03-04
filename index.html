@@ -4,19 +4,43 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Russia-Travel</title>
+    <link href="./style.css" rel="stylesheet">
 </head>
 <body class="page">
     <div class="wrapper">
         <header class="header">Шапка сайта</header>
         <main>
+            <section class="lead">
+                <div class="lead__title">
+                    Путешествия по России
+                </div>
+                <div class="lead__subtitle">
+                    Настоящая страна не в выпусках новостей, а здесь
+                </div>
+                <div class="lead__image">
+                    <img src="./static/images/kalegin-michail-179870-unsplash.jpg" alt="ALT">
+                </div>
+                <div class="lead__caption"></div>
+            </section>
+            <section class="intro"></section>
             <section class="photo-grid">Сетка с изображениями</section>
             <section class="places">Места, их описания и фото</section>
             <section class="video">Блоки с видео</section>
             <section class="comments">Комментарии фотографов</section>
         </main>
-        <footer class="footer">Подвал сайта</footer>
+        <footer class="footer">
+            <div class="footer__link">
+                <a href="#">Карты</a>
+                <a href="#">Погода</a>
+                <a href="#">Расписание</a>
+                <a href="#">Календарь</a>
+                <a href="#">Путешествия</a>
+            </div>
+
+            <div class="footer__copyright">(c) 2019 Сергей Кузнецов</div>
+        </footer>
     </div>
-    
+    <script type="text/javascript" src="./bundle.js"></script>
     
 </body>
 </html>
