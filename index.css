@@ -87,6 +87,10 @@ body {
     margin: auto;
     background-color: #133b1a;
 }
+.intro__wrap {
+    max-width: 660px;
+    text-align: left;
+}
 
 .intro__title {
     font-style: normal;
@@ -99,6 +103,29 @@ body {
     font-weight: normal;
     font-size: 14px;
     line-height: 24px;
+}
+.intro__text {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 13px;
+    line-height: 20px;
+}
+
+/* ------------------------------------ */
+
+.photo-grid {
+    padding-top: 102px;
+    max-width: 1184px;
+    margin: auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-gap: 16px;
+    background-color: #464317;
+}
+.photo-grid__item {
+    width: 284px;
+    height: 188px;
+    background-color: #2C2C2C;
 }
 
 /* ---------------------------------- */
