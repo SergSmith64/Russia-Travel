@@ -3,7 +3,7 @@
 body {
     min-width: 320px;
     /* font-family: "RobotoRegular", sans-serif; */
-    font-family: sans-serif;
+    font-family: "Inter", sans-serif;
 }
 
 .page {
@@ -24,6 +24,7 @@ body {
     color: #FFF;
 }
 
+/* -------------------------------- */
 
 .header {
     display: flex;
@@ -36,17 +37,23 @@ body {
     background-color: #472d2d;
 }
 
+.header__logo img {
+    width: 176px;
+}
+
 /* --------------------------------- */
 
 .lead {
     max-width: 985px;
     margin: auto;
+    background-color: #2a1b63;
 }
 
 .lead__title {
-    font-family: Inter;
+    /* font-family: Inter; */
+    font-family: "Inter", sans-serif;
     font-style: normal;
-    font-weight: 900;
+    font-weight: 700;
     font-size: 96px;
     line-height: 93px;
     text-align: center;
