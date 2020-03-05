@@ -1,8 +1,13 @@
+@import url(../static/fonts/fonts.css);
+
 body {
     min-width: 320px;
     /* font-family: "RobotoRegular", sans-serif; */
-    /* font-family: sans-serif; */
-    font-family: serif;
+    font-family: sans-serif;
+}
+
+.page {
+    color: #FFF;
 }
 
 .wrapper {
@@ -15,18 +20,40 @@ body {
     font-size: 18px;
     text-align: center;
 }
+.main {
+    color: #FFF;
+}
+
 
 .header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 30px 128px 48px;
+    /* padding: 30px 128px 48px; */
     max-width: 1184px;
     height: 82px;
+    margin: 0 auto;;
+    background-color: #472d2d;
 }
 
 /* --------------------------------- */
 
+.lead {
+    max-width: 985px;
+    margin: auto;
+}
+
+.lead__title {
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 96px;
+    line-height: 93px;
+    text-align: center;
+    margin: 48px auto;
+}
+
+/* ---------------------------------- */
 
 .place__title {
     font-family: Inter;
