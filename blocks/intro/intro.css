@@ -1,0 +1,29 @@
+.intro {
+  margin-top: 80px;
+  max-width: 985px;
+  margin: auto;
+  /* background-color: #133b1a; */
+}
+.intro__wrap {
+  max-width: 660px;
+  text-align: left;
+}
+
+.intro__title {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 54px;
+  line-height: 59px;
+}
+.intro__content-row {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 24px;
+}
+.intro__text {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 13px;
+  line-height: 20px;
+}

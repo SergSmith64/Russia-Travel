@@ -1,0 +1,39 @@
+.lead {
+  max-width: 985px;
+  margin: auto;
+  /* background-color: #2a1b63; */
+}
+
+.lead__title {
+  font-family: "Inter", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 96px;
+  line-height: 93px;
+  text-align: center;
+  margin: 48px auto;
+  max-width: 760px;
+}
+.lead__subtitle {
+  font-family: "Inter", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 30px;
+  line-height: 36px;
+  text-align: center;
+  margin: auto;
+  max-width: 600px;
+}
+.lead__image img {
+  width: 100%;
+}
+
+.lead__caption {
+  font-family: "Inter", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 10px;
+  line-height: 12px;
+  letter-spacing: 0.15em;
+  text-transform: uppercase;
+}

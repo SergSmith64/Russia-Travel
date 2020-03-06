@@ -1,0 +1,16 @@
+.photo-grid {
+  padding-top: 102px;
+  padding-bottom: 92px;
+  max-width: 1184px;
+  margin: auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-gap: 16px;
+  /* background-color: #464317; */
+}
+.photo-grid__item {
+  background-color: #2C2C2C;
+}
+.photo-grid__item img {
+  width: 100%;
+}

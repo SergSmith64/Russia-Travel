@@ -1,0 +1,25 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  /* padding: 30px 128px 48px; */
+  max-width: 1184px;
+  height: 82px;
+  margin: 0 auto;;
+  /* background-color: #472d2d; */
+}
+
+.header__logo img {
+  width: 176px;
+}
+.header__lang {
+  padding: 0;
+}
+.header__lang-link {
+  color: #b8b8b8;
+  padding: 3px;
+  font-size: 20px;
+}
+.header__lang-link_active {
+  color: #FFF;
+}
